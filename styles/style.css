@@ -1,0 +1,181 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+/* End Font */
+
+/* Start Body */
+
+/* Selector */
+body {
+    /* Property */    
+    background-color: black;
+    color: green;
+    font-family: Roboto, Pathway Gothic One, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.51em;
+    margin: 0;
+    padding 0;
+}
+/* End Body */
+
+/* Start Debug */
+
+.bg-gray {
+    background-color:gray;
+}
+
+.bg-blue {
+    background-color:blue;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    color:gray
+}
+/* End Countainer */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End logo */
+
+/* Start kata Logo */
+.rata-atas {
+    text-align:upper;
+}
+.rata-bawah {
+    text-align:bottom;
+}
+.rata-kiri {
+    text-align: left;
+}
+.rata-kanan {
+    text-align: right
+}
+/* End kata Logo */
+
+/* Start Menu-Primer */
+.menu-primer ul {
+    background-color:gray;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(121, 118, 118, 0.466),
+        0 6px 10px 0 rgba(4, 40, 243, 0.123),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid blue;
+    display: inline-block;
+    margin:0 -4px;
+    letter-spacing: 1px;
+    padding: 1px 10px;
+    text-transform: uppercase;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a.shover {
+    background-image: white;
+    color: green;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color:gray;
+    color: blue;
+    text-decoration: none;
+}
+/* End Menu-Primer */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px ;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading{
+    background-color: gainsboro;
+    border: 1px solid gray;
+    border-radius: 3px 3px 0 0;
+    margin: 5px 5px 0px 0px;
+    padding: 1px 10px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: gainsboro;
+    border: 1px solid gray;
+    border-top: ;
+    margin: 5px 5px 0px 0px ;
+    padding: 100px 0px;
+    
+}
+/* End Box */
+
+/* Start Effect */
+.snip1325 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 255px;
+    max-width: 315px;
+    height: 220px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  .snip1325 img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+  }
+  .snip1325:hover img,
+  .snip1325.hover img {
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+  }
+  /* Demo purposes only */
+  body {
+    background-color:black;
+  }
+/* End Effect */
+
+/* Start Element */
+.page-element {
+    display: none;
+}
+/* End Element */
